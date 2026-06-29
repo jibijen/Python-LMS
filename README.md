@@ -1,54 +1,44 @@
-# Build Library Management System | Python & PyQt5
+# Library Management System
 
-- get the course from here : 
-    https://www.udemy.com/build-library-management-system-python-pyqt5/?couponCode=YOUTUBE2019
+A desktop Library Management System built with Python and PyQt5.
 
-- In this course you'll learn how to build a Library System with PyQt5 and Python
-  PyQt5 is one of the best frameworks for developing desktop applications that looks awesome 
-  In this course I'll be developing on a my Mac machine, but you should be able to follow along if you're on a Windows or Linux.  I'll show you how to download and install Python and PyQt5
-  You'll be able to build Desktop Applications  and simple business Applications when you're finished with this course.
+## Features
 
-- we will build a library system with:
-    - adding new books
-    - adding books categories
-    - adding books Author
-    - adding books Publisher
-    - adding day to day operations for rent or retrieving books
-    - Generate Excel reports from our data
-    - Adding new users with user login  and editing user data
+- Add and manage books
+- Manage book categories, authors, and publishers
+- Track lending and returning of books
+- Generate Excel reports from library data
+- Add and manage users with login and profile updates
+- Apply multiple UI themes
 
+## Technologies
 
+- Python
+- PyQt5
+- SQLite database
+- Qt Designer for UI layout
+- CSS-style application themes
 
-- WHAT DO YOU NEED TO TAKE THIS COURSE?
-    - You don't need any tools or special skills to take this course. I'll show you how to download and install everything you'll need for free (PyQt, Python, and the Pycharm). 
+## Installation
 
-- DO I NEED TO KNOW PYTHON TO TAKE THIS COURSE?
-    - simple python basics!  it's a good idea to learn Python if you want to use PyQt5. But you don't have to know advanced Python to take this course. I'll walk you through everything you need to know.
-      Building desktop applications with PyQt5 is very easy , and the course will make it very fun
+1. Install Python 3.
+2. Install dependencies:
+   ```bash
+   pip install PyQt5
+   ```
+3. Run the application:
+   ```bash
+   python index.py
+   ```
 
+## Project Structure
 
+- `index.py` - application entry point
+- `library.ui`, `library2.ui`, `login.ui` - Qt Designer UI files
+- `db.sql` - database schema and sample data
+- `icons_rc.py`, `icons.qrc` - bundled icons
+- `themes/` - CSS theme files
 
--What you’ll learn
-    - Installing Python
-    - Installing PyQt5
-    - Installing MySQL Server
-    - Design nice desktop applications with QtDesigner
-    - Styling desktop applications with CSS
-    - Design a database using mysql workbench
-    - Connecting to mysql database with python
-    - inserting , selecting , updating , deleting database data from our app
-    - Adding project themes and change between them easly
-    - Adding new users
-    - Updating user data
-    - Login at startup
+## Notes
 
-
-
-
-
-- Are there any course requirements or prerequisites?
-    - simple python skills is needed
-
-- Who this course is for:
-    - This course is aimed towards absolute beginners who want to learn how to  build desktop applications with PyQt5 and Python
-
+This project is a complete desktop application for managing a library and its users. It includes book inventory management, user authentication, and reporting tools.
